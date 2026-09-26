@@ -1,0 +1,11 @@
+belajar membuat website sederhana :
+HTML | CSS | Javascript
+
+Navbar
+side bar
+footer
+Hero Section
+About
+Project
+Contact Form
+Interaksi Javascript

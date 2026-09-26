@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+<body>
+    <nav>
+    <h1>Profil Lutfi Code</h1>
+    <ul>
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">Tentang Saya</a></li>
+        <li><a href="#contact">Kontak</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        
+    </ul>
+    </nav>
+    <section id="home" class="hero">
+        <h1>Selamat Datang di <span>Profil Saya</span></h1>
+        <p>Halo, saya Lutfi Code. Selamat datang di profil pribadi saya!</p>
+        <button onclick="scrolltocontact()">Hubungi Saya</button>
+    </section>
+
+    <section id="about" class="section">
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah seorang developer yang berfokus pada pembuatan aplikasi web yang user-friendly dan efisien.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Kontak</h2>
+        <p>Email: <a href="mailto:lutficode@example.com">lutficode@example.com</a></p>
+
+        <form action="contactform">
+            <input type="text" placeholder="Masukkan nama Anda" required>
+            <input type="email" placeholder="Masukkan email Anda" required>
+            <textarea placeholder="Masukkan pesan Anda" required></textarea>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+
+        <p id="form-message" class="messege"></p>
+
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <p>Proyek Lutfi Code</p>
+
+        <div class="project-list">
+        <div class="card">
+            <h3>Project 1</h3>
+            <p>Project pertama saya adalah program kasir interaktif menggunakan python</p>
+        </div>
+        <div class="card">
+            <h3>Project 2</h3>
+            <p>Project kedua saya adalah website sederhana menggunakan HTML, CSS, dan JavaScript</p>
+        </div>
+        <div class="card">
+            <h3>Project 3</h3>
+            <p>Project ketiga saya adalah aplikasi mobile sederhana menggunakan React Native</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Lutfi Code. All rights reserved.</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
